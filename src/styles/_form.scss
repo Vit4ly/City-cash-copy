@@ -1,0 +1,12 @@
+@import "./settings/colors";
+@import "./settings/indent";
+
+.el-input__inner {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none;
+  padding: 0 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: $input-color;
+}
